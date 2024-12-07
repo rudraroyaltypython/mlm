@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-@440*i(tn2c57t85z)y9s1#b#x%#6%8v7c@&ajzp365uolr%a_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mlm.onrender.com']
+ALLOWED_HOSTS = ['*', 'mlm.onrender.com']
 LOGIN_REDIRECT_URL = '/dashboard/'  # This will redirect logged-in users to the dashboard
 LOGIN_URL = '/login/'  # The login page that unauthenticated users should be redirected to
 LOGOUT_REDIRECT_URL = '/'  # Redirect to the homepage after logout
