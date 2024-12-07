@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: django-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        value: django-insecure-@440*i(tn2c57t85z)y9s1#b#x%#6%8v7c@&ajzp365uolr%a_
+      - key: ALLOWED_HOSTS
+        value: "your-render-service-name.onrender.com"
